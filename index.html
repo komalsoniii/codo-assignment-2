@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,intial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="api.css">                                                
+        <title>
+            API Fetching  
+        </title>
+    </head>
+    <body>
+        <div class="details">
+            <span id="resName">Name</span>
+            <p  class="pmargin"><span id="address">Address</span> City- <span id="city">city</span>,State-<span id="state">State</span></p>
+            <p class="pmargin">Phone Number- <span id="phNo"> </span>, Email- <span id="email"> </span></p>
+            <p>GST No - <spna id="GSTno">gst</spna></p>
+        </div>
+        
+        <hr>
+        
+        <div>
+           <div class="dateTime">
+            <p class="pflex flex-grow">
+               <span>Table No:</span>
+               <span class="margin">Date-Time:</span>
+            </p>
+             <p class="pflex text-align">
+               <span class="dateColor">Take Away</span>
+               <span class="dateColor margin"><spna id="dateTime"> </spna></span>
+             </p>
+          </div>
+            
+          <table>
+             <tr>
+                <th style="width: 5%;">No</th>
+                <th style="width: 60%;">Item Name</th>
+                <th style="width: 20%;">Price</th>
+                <th style="width: 10%;">QTY</th>
+                <th style="width: 10%;">Amt.</th>
+             </tr>
+             <tr class="black">
+                 <td>1</td>
+                 <td id="menu_name">menu_name</td>
+                 <td id="rate">rate</td>
+                 <td id="qty" style="padding-left: 20px;">qty</td>
+                 <td id="amnt" style="padding-bottom: 20px;">amt</td>
+             </tr>
+         </table>
+         
+         <div class="flex">
+             <p class="bolder flex-grow">Sub Total</p>
+             <p class="bolder">Rs <span id="subTotal"> </span></p>
+         </div>    
+         <div class="flex">
+             <p class="bolder flex-grow">Discount <span class="black">(<spna id="dis"></spna>%)</span></p>
+             <p class="bolder" id="discount"> </p>
+         </div>  
+         <div class="flex total">
+             <p class="bolder flex-grow">Grand Total</p>
+             <p class="bolder">Rs <span id="grandTotal"> </span></p>
+         </div>    
+         <div class="thankyou">Thank You!!</div>  
+        </div>
+        <script src="api.js"></script>
+    </body>
+</html>    

@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 70px auto;
+    color: #956752;
+    max-height: 100vh;
+}
+
+.details{
+    font-family: 'open sans',sans-serif;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center; 
+    padding: 0;
+}
+
+#resName{
+    font-size: 26px;
+}
+
+.dateTime{
+    display:flex; 
+    margin: 0 auto;  
+    width: 80%;
+}
+
+.pmargin{
+    margin-bottom: 0px;
+}
+
+.pflex{
+    display: flex;
+    flex-direction: column;
+    font-family: 'open sans';
+    margin-bottom: 0px;
+}
+
+hr{
+    margin: 0 auto;
+    width: 80%;
+    border-top: .5px solid #f7f3f3;
+}
+
+.dateColor{
+    color: #dda832;
+}
+
+.text-align{
+    text-align: end;
+}
+
+.margin{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+table {
+  margin:0 auto;    
+  width: 80%;
+  border-collapse: collapse;
+}
+
+th{
+    text-align: left;
+    color: white;
+    background-color: #ac8f7a;
+    font-family: 'open sans';
+    font-weight: 100;
+    padding: 7px 10px;
+}
+
+.black{
+    color: #000;
+}
+
+td{
+    padding: 10px;
+    border-bottom: 1px solid #dddbdb;
+    font-family: 'open sans';
+}
+
+.flex{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 3px;
+    padding-right: 7px;
+}
+
+.bolder{
+    font-weight: bolder;
+}
+
+.flex-grow{
+    flex-grow: 1;
+}
+
+.total{
+    background-color: #dedddc;
+}
+
+.thankyou{
+    text-align: center; 
+    width: 80%; 
+    margin: 0 auto;
+    padding: 10px 0px;
+    color: #fff; 
+    background-color: orange;
+}
